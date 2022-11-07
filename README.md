@@ -1,4 +1,4 @@
-Opportunity Management
+Automated Tests for Dynamics 365
 =====================
 
 This project aims to demonstrate various types of automated tests that can be used while working on a Dynamics CRM solution.
