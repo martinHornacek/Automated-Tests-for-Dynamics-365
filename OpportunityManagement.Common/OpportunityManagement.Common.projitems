@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{70a1f934-1d03-412c-be85-ea39bec004b9}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a71a5665-31b7-476c-9171-a20fa9c7469f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>OpportunityManagement.Common</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\ParameterNames.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\SecurityRoleNames.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\AccountRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\IAccountRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\IOpportunityRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\IRoleRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\ISystemUserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\OpportunityRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\RoleRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\SystemUserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\EntityBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Entity\Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Entity\Opportunity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Entity\Role.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Entity\SystemUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Entity\SystemUserRoles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Exceptions\ExceptionMessages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Plugin\InputParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Plugin\MessageName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Plugin\PluginException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Metadata\Plugin\Stage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\OrganizationServiceFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\SystemUserConfigurator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Utilities\" />
+  </ItemGroup>
+</Project>
