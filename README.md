@@ -7,7 +7,7 @@ The main purposes of this project is to:
 
  * provide an entry level guide on automation testing for a Dynamics CRM solution
  * provide a Visual Studio solution template for a Dynamics CRM solution
- * provide a demonstration how to implement different types of automated testing for a Dynamics CRM solution
- * provide a comparison of different types of automated testing for a Dynamics CRM solution and their respective pros and cons
+ * provide a demonstration how to implement different categories of automated testing for a Dynamics CRM solution
+ * provide a comparison of different categories of automated testing for a Dynamics CRM solution and their respective pros and cons
 
 For detailed project documentation and automated testing guide please refer to the DOCS.md file.
